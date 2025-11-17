@@ -1,8 +1,7 @@
 .header {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
 
-    margin: 0;
-    padding: 0;
+    padding: 25px 0;
     height: 80px;
     .wrapper {
         display: flex;
@@ -13,7 +12,10 @@
     p {
         text-transform: uppercase;
         // centrer texte !!!!!!!!!!!
-
+        margin: 0;
         font-weight: 600;
+    }
+
+    a {
     }
 }
