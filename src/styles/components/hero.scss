@@ -1,0 +1,15 @@
+.hero {
+    max-height: 80vh;
+    .wrapper {
+        position: relative;
+
+        img {
+            display: block;
+        }
+    }
+    h1 {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}

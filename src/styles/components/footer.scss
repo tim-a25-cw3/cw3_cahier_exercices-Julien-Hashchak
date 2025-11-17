@@ -1,3 +1,25 @@
 .footer {
-    background-color: var(--color-primary);
+    min-height: 270px;
+    padding: 40px;
+    background-color: var(--color-black);
+    p {
+        text-align: center;
+        .gros-texte {
+            color: rgba(255, 255, 255, 0.55);
+        }
+        color: var(--color-white);
+    }
+    span {
+        font-weight: bold;
+    }
+    .reseaux {
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+
+        svg {
+            color: #8c8c8c;
+        }
+    }
 }
+// changer typo typo(x,y)
