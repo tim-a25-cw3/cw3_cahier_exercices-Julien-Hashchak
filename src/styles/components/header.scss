@@ -1,21 +1,21 @@
 .header {
     background-color: rgba(0, 0, 0, 0.6);
-
     padding: 25px 0;
     height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
     .wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    p {
-        text-transform: uppercase;
-        // centrer texte !!!!!!!!!!!
-        margin: 0;
-        font-weight: 600;
-    }
-
     a {
+        color: var(--color-white);
+        text-transform: uppercase;
+        font-weight: 600;
     }
 }
