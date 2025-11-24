@@ -1,13 +1,30 @@
 .footer {
-    min-height: 270px;
+    height: 270px;
     padding: 40px;
     background-color: var(--color-black);
+
+    .wrapper{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
     p {
         text-align: center;
-        .gros-texte {
-            color: rgba(255, 255, 255, 0.55);
-        }
+        
+        
         color: var(--color-white);
+    }
+
+    .petit-texte{
+        font-size: 18px;
+    }
+    .gros-texte {
+        color: var(--color-white);
+        font-size: 56px;      
     }
     span {
         font-weight: bold;
@@ -22,4 +39,3 @@
         }
     }
 }
-// changer typo typo(x,y)

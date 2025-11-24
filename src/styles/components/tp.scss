@@ -1,8 +1,37 @@
-.tp {
-    padding: 80px;
+.tp { 
     background-color: var(--color-primary);
-    .card-tp {
-        display: flex;
-        gap: 32px;
+    
+    h2,p,h3{
+        color: var(--color-black);
     }
 }
+
+.pagination{
+    box-sizing: border-box;
+}
+
+.swiper-pagination {
+    position: static;
+}
+
+.swiper-wrapper{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.swiper-slide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: center;
+    @media (width<=$breakpoint-sm){
+        display: block;
+    }
+}
+
+.bouton{
+    background-color: var(--color-white);
+}
+
+
